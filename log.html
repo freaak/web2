@@ -1,0 +1,61 @@
+/<html>
+    <head>
+<title>Login form 2.0</title>
+<link rel="stylesheet" href="log.css">
+    </head>
+    <body>
+ <div class="hero">
+ <div class="form-box"> 
+ <div class="button-box">
+ <div id="btn">  </div>
+ <button type="button" class="toogle-btn" onclick="log in()">Log in</button>
+ <button type="button" class="toogle-btn" onclick="register()">Register</button>
+ </div>
+ <!--<div class="social icons">
+  <img src="wa.jpg">
+  <img src="yt.jpg">
+  </div>--!>
+  </div>
+  <div> 
+  <form id="log in" class="input-group">
+  <input type="text" class="input-field" placeholder="user id"
+  required>
+  <input type="text" class="input-field" placeholder="password"
+  required>
+  <input type="check-box" class="check-box"><span>Remember Password </span>
+  <button type="submit" class="submit-btn" >Log in </button>
+    </form>
+    <form id="register" class="input-group">
+  <input type="text" class="input-field" placeholder="user id"
+  required>
+  <input type="mail" class="input-field" placeholder="email id"
+  required>
+  <input type="text" class="input-field" placeholder="password"
+  required>
+  <input type="check-box" class="check-box"><span>I agree to the terms & conditions</span>
+  <button type="submit" class="submit-btn" >Register</button>
+    </form>
+   </div>
+   </div>
+  <script>
+  var x = document.getElementById("log in")
+  var y = document.getElementById("register")
+  var z = document.getElementById("btn")
+  
+  function register(){
+      x.style.left: "-400px";
+      y.style.left: "50px";
+      z.style.left: "110px";
+  }
+  
+  function log in(){
+      x.style.left: "50px";
+      y.style.left: "450px";
+      z.style.left: "0";
+  }
+  
+  
+    </script> 
+   
+    </body> 
+</html>
